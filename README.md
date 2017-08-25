@@ -1,0 +1,4 @@
+# SunSwitcherThemeColor
+Demo完全使用Swift3.0编写完成，并使用iOS的NSNotification来触发主题切换的动作。
+当然主题切换，意味着整个App的风格都得改变，所以当修改完主题后，主页以及其子页面的主题也得随之改变。具体效果如下gif图所示。当然Demo比较简单，但是麻雀虽小，五脏俱全，用来了解App的主题切换足以
+ 

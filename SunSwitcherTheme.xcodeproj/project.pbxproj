@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42607DC1F4FFD9100163EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42607DB1F4FFD9100163EBA /* AppDelegate.swift */; };
+		A42607E31F4FFD9200163EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42607E21F4FFD9200163EBA /* Assets.xcassets */; };
+		A42607E61F4FFD9200163EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42607E41F4FFD9200163EBA /* LaunchScreen.storyboard */; };
+		A42607F11F4FFD9200163EBA /* SunSwitcherThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42607F01F4FFD9200163EBA /* SunSwitcherThemeTests.swift */; };
+		A42607FC1F4FFD9200163EBA /* SunSwitcherThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42607FB1F4FFD9200163EBA /* SunSwitcherThemeUITests.swift */; };
+		A426080F1F4FFE5D00163EBA /* MainTabbaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426080E1F4FFE5D00163EBA /* MainTabbaeViewController.swift */; };
+		A42608111F4FFE9B00163EBA /* SunHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608101F4FFE9B00163EBA /* SunHomeViewController.swift */; };
+		A42608131F4FFEB100163EBA /* SunThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608121F4FFEB100163EBA /* SunThemeViewController.swift */; };
+		A42608151F50013700163EBA /* SunColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608141F50013700163EBA /* SunColor.swift */; };
+		A42608191F50073700163EBA /* SunThemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608181F50073700163EBA /* SunThemeTableViewCell.swift */; };
+		A426081B1F500ADE00163EBA /* SunSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426081A1F500ADE00163EBA /* SunSubView.swift */; };
+		A426081E1F500B7700163EBA /* SunThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426081D1F500B7700163EBA /* SunThemeProtocol.swift */; };
+		A42608201F500FC600163EBA /* SunThemeManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426081F1F500FC600163EBA /* SunThemeManagerProtocol.swift */; };
+		A42608221F50101200163EBA /* SunThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608211F50101200163EBA /* SunThemeManager.swift */; };
+		A42608241F5012E200163EBA /* SunBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608231F5012E200163EBA /* SunBaseViewController.swift */; };
+		A42608261F50140D00163EBA /* SunBaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608251F50140D00163EBA /* SunBaseLabel.swift */; };
+		A42608281F50174400163EBA /* SunTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608271F50174400163EBA /* SunTitleLabel.swift */; };
+		A426082A1F50176100163EBA /* SunDetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42608291F50176100163EBA /* SunDetailLabel.swift */; };
+		A426082C1F501E9900163EBA /* SunHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426082B1F501E9900163EBA /* SunHomeDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42607ED1F4FFD9200163EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42607D01F4FFD9100163EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42607D71F4FFD9100163EBA;
+			remoteInfo = SunSwitcherTheme;
+		};
+		A42607F81F4FFD9200163EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42607D01F4FFD9100163EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42607D71F4FFD9100163EBA;
+			remoteInfo = SunSwitcherTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42607D81F4FFD9100163EBA /* SunSwitcherTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunSwitcherTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42607DB1F4FFD9100163EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A42607E21F4FFD9200163EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42607E51F4FFD9200163EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42607E71F4FFD9200163EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42607EC1F4FFD9200163EBA /* SunSwitcherThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunSwitcherThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42607F01F4FFD9200163EBA /* SunSwitcherThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunSwitcherThemeTests.swift; sourceTree = "<group>"; };
+		A42607F21F4FFD9200163EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42607F71F4FFD9200163EBA /* SunSwitcherThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunSwitcherThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42607FB1F4FFD9200163EBA /* SunSwitcherThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunSwitcherThemeUITests.swift; sourceTree = "<group>"; };
+		A42607FD1F4FFD9200163EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A426080E1F4FFE5D00163EBA /* MainTabbaeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbaeViewController.swift; sourceTree = "<group>"; };
+		A42608101F4FFE9B00163EBA /* SunHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunHomeViewController.swift; sourceTree = "<group>"; };
+		A42608121F4FFEB100163EBA /* SunThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunThemeViewController.swift; sourceTree = "<group>"; };
+		A42608141F50013700163EBA /* SunColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunColor.swift; sourceTree = "<group>"; };
+		A42608181F50073700163EBA /* SunThemeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunThemeTableViewCell.swift; sourceTree = "<group>"; };
+		A426081A1F500ADE00163EBA /* SunSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunSubView.swift; sourceTree = "<group>"; };
+		A426081D1F500B7700163EBA /* SunThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunThemeProtocol.swift; sourceTree = "<group>"; };
+		A426081F1F500FC600163EBA /* SunThemeManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunThemeManagerProtocol.swift; sourceTree = "<group>"; };
+		A42608211F50101200163EBA /* SunThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunThemeManager.swift; sourceTree = "<group>"; };
+		A42608231F5012E200163EBA /* SunBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunBaseViewController.swift; sourceTree = "<group>"; };
+		A42608251F50140D00163EBA /* SunBaseLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SunBaseLabel.swift; path = ../View/SunBaseLabel.swift; sourceTree = "<group>"; };
+		A42608271F50174400163EBA /* SunTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunTitleLabel.swift; sourceTree = "<group>"; };
+		A42608291F50176100163EBA /* SunDetailLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunDetailLabel.swift; sourceTree = "<group>"; };
+		A426082B1F501E9900163EBA /* SunHomeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunHomeDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42607D51F4FFD9100163EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607E91F4FFD9200163EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607F41F4FFD9200163EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42607CF1F4FFD9100163EBA = {
+			isa = PBXGroup;
+			children = (
+				A42607DA1F4FFD9100163EBA /* SunSwitcherTheme */,
+				A42607EF1F4FFD9200163EBA /* SunSwitcherThemeTests */,
+				A42607FA1F4FFD9200163EBA /* SunSwitcherThemeUITests */,
+				A42607D91F4FFD9100163EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42607D91F4FFD9100163EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42607D81F4FFD9100163EBA /* SunSwitcherTheme.app */,
+				A42607EC1F4FFD9200163EBA /* SunSwitcherThemeTests.xctest */,
+				A42607F71F4FFD9200163EBA /* SunSwitcherThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42607DA1F4FFD9100163EBA /* SunSwitcherTheme */ = {
+			isa = PBXGroup;
+			children = (
+				A42608091F4FFE1000163EBA /* Extension */,
+				A426080A1F4FFE1000163EBA /* View */,
+				A426080B1F4FFE1000163EBA /* Tools */,
+				A426080C1F4FFE1000163EBA /* Class */,
+				A426080D1F4FFE1000163EBA /* Base */,
+				A42607DB1F4FFD9100163EBA /* AppDelegate.swift */,
+				A426081C1F500B4C00163EBA /* Theme */,
+				A42607E21F4FFD9200163EBA /* Assets.xcassets */,
+				A42607E41F4FFD9200163EBA /* LaunchScreen.storyboard */,
+				A42607E71F4FFD9200163EBA /* Info.plist */,
+			);
+			path = SunSwitcherTheme;
+			sourceTree = "<group>";
+		};
+		A42607EF1F4FFD9200163EBA /* SunSwitcherThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42607F01F4FFD9200163EBA /* SunSwitcherThemeTests.swift */,
+				A42607F21F4FFD9200163EBA /* Info.plist */,
+			);
+			path = SunSwitcherThemeTests;
+			sourceTree = "<group>";
+		};
+		A42607FA1F4FFD9200163EBA /* SunSwitcherThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A42607FB1F4FFD9200163EBA /* SunSwitcherThemeUITests.swift */,
+				A42607FD1F4FFD9200163EBA /* Info.plist */,
+			);
+			path = SunSwitcherThemeUITests;
+			sourceTree = "<group>";
+		};
+		A42608091F4FFE1000163EBA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A42608141F50013700163EBA /* SunColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A426080A1F4FFE1000163EBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A42608181F50073700163EBA /* SunThemeTableViewCell.swift */,
+				A426081A1F500ADE00163EBA /* SunSubView.swift */,
+				A42608271F50174400163EBA /* SunTitleLabel.swift */,
+				A42608291F50176100163EBA /* SunDetailLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A426080B1F4FFE1000163EBA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A426080C1F4FFE1000163EBA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A42608101F4FFE9B00163EBA /* SunHomeViewController.swift */,
+				A426082B1F501E9900163EBA /* SunHomeDetailViewController.swift */,
+				A42608121F4FFEB100163EBA /* SunThemeViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A426080D1F4FFE1000163EBA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A426080E1F4FFE5D00163EBA /* MainTabbaeViewController.swift */,
+				A42608231F5012E200163EBA /* SunBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A426081C1F500B4C00163EBA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A42608251F50140D00163EBA /* SunBaseLabel.swift */,
+				A426081D1F500B7700163EBA /* SunThemeProtocol.swift */,
+				A426081F1F500FC600163EBA /* SunThemeManagerProtocol.swift */,
+				A42608211F50101200163EBA /* SunThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A42607D71F4FFD9100163EBA /* SunSwitcherTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42608001F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherTheme" */;
+			buildPhases = (
+				A42607D41F4FFD9100163EBA /* Sources */,
+				A42607D51F4FFD9100163EBA /* Frameworks */,
+				A42607D61F4FFD9100163EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunSwitcherTheme;
+			productName = SunSwitcherTheme;
+			productReference = A42607D81F4FFD9100163EBA /* SunSwitcherTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42607EB1F4FFD9200163EBA /* SunSwitcherThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42608031F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherThemeTests" */;
+			buildPhases = (
+				A42607E81F4FFD9200163EBA /* Sources */,
+				A42607E91F4FFD9200163EBA /* Frameworks */,
+				A42607EA1F4FFD9200163EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42607EE1F4FFD9200163EBA /* PBXTargetDependency */,
+			);
+			name = SunSwitcherThemeTests;
+			productName = SunSwitcherThemeTests;
+			productReference = A42607EC1F4FFD9200163EBA /* SunSwitcherThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A42607F61F4FFD9200163EBA /* SunSwitcherThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42608061F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherThemeUITests" */;
+			buildPhases = (
+				A42607F31F4FFD9200163EBA /* Sources */,
+				A42607F41F4FFD9200163EBA /* Frameworks */,
+				A42607F51F4FFD9200163EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42607F91F4FFD9200163EBA /* PBXTargetDependency */,
+			);
+			name = SunSwitcherThemeUITests;
+			productName = SunSwitcherThemeUITests;
+			productReference = A42607F71F4FFD9200163EBA /* SunSwitcherThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42607D01F4FFD9100163EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sun;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LeiMo;
+				TargetAttributes = {
+					A42607D71F4FFD9100163EBA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A42607EB1F4FFD9200163EBA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A42607D71F4FFD9100163EBA;
+					};
+					A42607F61F4FFD9200163EBA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A42607D71F4FFD9100163EBA;
+					};
+				};
+			};
+			buildConfigurationList = A42607D31F4FFD9100163EBA /* Build configuration list for PBXProject "SunSwitcherTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42607CF1F4FFD9100163EBA;
+			productRefGroup = A42607D91F4FFD9100163EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42607D71F4FFD9100163EBA /* SunSwitcherTheme */,
+				A42607EB1F4FFD9200163EBA /* SunSwitcherThemeTests */,
+				A42607F61F4FFD9200163EBA /* SunSwitcherThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42607D61F4FFD9100163EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42607E61F4FFD9200163EBA /* LaunchScreen.storyboard in Resources */,
+				A42607E31F4FFD9200163EBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607EA1F4FFD9200163EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607F51F4FFD9200163EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42607D41F4FFD9100163EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426082A1F50176100163EBA /* SunDetailLabel.swift in Sources */,
+				A42608191F50073700163EBA /* SunThemeTableViewCell.swift in Sources */,
+				A42608111F4FFE9B00163EBA /* SunHomeViewController.swift in Sources */,
+				A42608241F5012E200163EBA /* SunBaseViewController.swift in Sources */,
+				A42608201F500FC600163EBA /* SunThemeManagerProtocol.swift in Sources */,
+				A42608151F50013700163EBA /* SunColor.swift in Sources */,
+				A426080F1F4FFE5D00163EBA /* MainTabbaeViewController.swift in Sources */,
+				A42608261F50140D00163EBA /* SunBaseLabel.swift in Sources */,
+				A426081E1F500B7700163EBA /* SunThemeProtocol.swift in Sources */,
+				A42608221F50101200163EBA /* SunThemeManager.swift in Sources */,
+				A42608131F4FFEB100163EBA /* SunThemeViewController.swift in Sources */,
+				A426081B1F500ADE00163EBA /* SunSubView.swift in Sources */,
+				A42608281F50174400163EBA /* SunTitleLabel.swift in Sources */,
+				A42607DC1F4FFD9100163EBA /* AppDelegate.swift in Sources */,
+				A426082C1F501E9900163EBA /* SunHomeDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607E81F4FFD9200163EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42607F11F4FFD9200163EBA /* SunSwitcherThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42607F31F4FFD9200163EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42607FC1F4FFD9200163EBA /* SunSwitcherThemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42607EE1F4FFD9200163EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42607D71F4FFD9100163EBA /* SunSwitcherTheme */;
+			targetProxy = A42607ED1F4FFD9200163EBA /* PBXContainerItemProxy */;
+		};
+		A42607F91F4FFD9200163EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42607D71F4FFD9100163EBA /* SunSwitcherTheme */;
+			targetProxy = A42607F81F4FFD9200163EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42607E41F4FFD9200163EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42607E51F4FFD9200163EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42607FE1F4FFD9200163EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42607FF1F4FFD9200163EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42608011F4FFD9200163EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunSwitcherTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A42608021F4FFD9200163EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunSwitcherTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherTheme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A42608041F4FFD9200163EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunSwitcherThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunSwitcherTheme.app/SunSwitcherTheme";
+			};
+			name = Debug;
+		};
+		A42608051F4FFD9200163EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SunSwitcherThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherThemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunSwitcherTheme.app/SunSwitcherTheme";
+			};
+			name = Release;
+		};
+		A42608071F4FFD9200163EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunSwitcherThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunSwitcherTheme;
+			};
+			name = Debug;
+		};
+		A42608081F4FFD9200163EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SunSwitcherThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sun.SunSwitcherThemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SunSwitcherTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42607D31F4FFD9100163EBA /* Build configuration list for PBXProject "SunSwitcherTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42607FE1F4FFD9200163EBA /* Debug */,
+				A42607FF1F4FFD9200163EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42608001F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42608011F4FFD9200163EBA /* Debug */,
+				A42608021F4FFD9200163EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A42608031F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42608041F4FFD9200163EBA /* Debug */,
+				A42608051F4FFD9200163EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A42608061F4FFD9200163EBA /* Build configuration list for PBXNativeTarget "SunSwitcherThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42608071F4FFD9200163EBA /* Debug */,
+				A42608081F4FFD9200163EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42607D01F4FFD9100163EBA /* Project object */;
+}
